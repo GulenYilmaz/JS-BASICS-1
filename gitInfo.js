@@ -3,6 +3,17 @@
     You'll provide the command as well as what it does. 
 */
 
+
+
+
+
+
+
+
+
+
+
+
 //////////////////PROBLEM 1////////////////////
 /*
     Create a variable called 'gitDefinition'.
@@ -10,6 +21,16 @@
 */
 
 //CODE HERE
+let gitDefinition ='version control system'
+
+
+
+
+
+
+
+
+
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +39,11 @@
 */
 
 //CODE HERE
+let gitHubDefinition ='GitHub is a Git repository hosting service'
+
+
+
+
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -27,6 +53,11 @@
     string of the actual command (what you type into your terminal).
 */
 
+
+
+
+
+
 //////////////////PROBLEM 3////////////////////
 /*
     Create an object called 'init' with 'description' and 'code' properties 
@@ -34,6 +65,11 @@
 */
 
 //CODE HERE
+const init = {description:"initialize a local repository right here in this folder", code:"git init"};
+
+
+
+
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +78,11 @@
 */
 
 //CODE HERE
+const clone = {description:"clone, or copy of the target repository", code:"git clone URL"};
+
+
+
+
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +91,13 @@
 */
 
 //CODE HERE
+const status = {description:"shows the current state of your Git working directory and staging area", code:"git status"};
+
+
+
+
+
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +106,11 @@
 */
 
 //CODE HERE
+const add = {description:"add some files to be tracked", code:"git add ."};
+
+
+
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +119,11 @@
 */
 
 //CODE HERE
+const commit = {description:"create a snapshot of the files I’m tracking", code:"git commit -m "};
+
+
+
+
 
 
 //////////////////PROBLEM 8////////////////////
@@ -75,3 +133,4 @@
 */
 
 //CODE HERE
+const push = {description:"used to upload local repository content to a remote repository", code:"git push "};
