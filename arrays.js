@@ -39,12 +39,13 @@ var middleNums =numbers.slice(1,3)
 */
 
 // CODE HERE
-function bigOrSmall(answers){
-
-  var small = true;
-  answers.forEach(item => {
-    (item <= 100) ? small = true : false;
-  });
-  (small == true) ? answers.push('big') : answers.push('small');
-  return answers
-}
+// function bigOrSmall(answers) {
+//   for(let i = 0; i > 100; i++) {
+//       return answers('big')
+//       if(let i = 0; i <= 100; i++) {
+//           return answers('small')
+//       }
+//       answers(arr[i])
+//   }
+//   return answers,
+// }
